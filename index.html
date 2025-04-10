@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Theme Toggle -->
+      <div class="mode-toggle">
+        <label class="switch">
+          <input type="checkbox" id="themeSwitch" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <h1>☁️ Weather</h1>
+
+      <!-- Search Form -->
+      <form id="weatherForm">
+        <input type="text" id="location" name="location" placeholder="Search city (e.g. Paris, FR)" required />
+      </form>
+
+      <!-- Weather Output -->
+      <div id="weatherResult"></div>
+
+      <!-- Forecast Toggle Button -->
+      <button id="toggleForecast">⛅ Show next days</button>
+
+      <!-- Forecast Container (initially hidden) -->
+      <div id="forecastContainer" class="hidden"></div>
+    </div>
+
+    <script src="dist/main.js"></script>
+  </body>
+</html>
