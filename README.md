@@ -4,7 +4,7 @@ Weather App is a responsive web application that allows users to search for curr
 
 ## Live Demo
 
-Check out the live demo at [Weather App Live](#) _(https://v2-weather-app.netlify.app)_
+Check out the live demo at [Weather App Live](https://v2-weather-app.netlify.app)
 
 ## Features
 
