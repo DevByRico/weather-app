@@ -23,4 +23,4 @@ Check out the live demo at [Weather App Live](https://v2-weather-app.netlify.app
 - **tsconfig.json:** TypeScript compiler configuration file.
 - **README.md:** Project documentation.
 
-© 2025 Weather App. All Rights Reserved. | Developed & Designed by Ricardo Nicolau
+© 2025 Weather App. All Rights Reserved. | Developed & Designed by DevByRico
